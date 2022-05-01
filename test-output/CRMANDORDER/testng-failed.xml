@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [CRMANDORDER]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" name="ORDERS1(failed)">
+    <classes>
+      <class name="Master.Level2HighLevelCRMOrdersChecks">
+        <methods>
+          <include name="Startup"/>
+          <include name="teardown"/>
+          <include name="IPAddress_Verification"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Master.Level2HighLevelCRMOrdersChecks -->
+    </classes>
+  </test> <!-- ORDERS1(failed) -->
+</suite> <!-- Failed suite [CRMANDORDER] -->

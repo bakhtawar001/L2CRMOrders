@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My Suite]">
+  <test thread-count="5" name="Some Workflow Tests 1(failed)">
+    <classes>
+      <class name="Master.OrdersExecution1">
+        <methods>
+          <include name="teardown"/>
+          <include name="Upload_AIExtensionFile"/>
+          <include name="ShipVia_LoomisGroundOption_DropdownValueVerifcation"/>
+          <include name="Settings_AutomaticSalesTaxChecked"/>
+          <include name="UploadDSTFileOrders_Orderlevel"/>
+          <include name="UploadSVGFileOrders_Orderlevel"/>
+          <include name="getResult"/>
+          <include name="Percentage_circle_inOrdersSummary_Widget_ToolTip_TextVerification"/>
+          <include name="OrderSaving_WithoutSalesPerson_ValidationVerification"/>
+          <include name="Startup"/>
+          <include name="LoginApp"/>
+          <include name="OrdersListing_SearchOrderField_PlaceholderVerification"/>
+          <include name="Percentage_square_in_Orders_SummaryWidget_ToolTip_TextVerification"/>
+          <include name="InvalidFileUpload_ErrorMessageDisplayVerification"/>
+          <include name="PayWith_ElectronicFundsOption_DropdownValueVerification"/>
+        </methods>
+      </class> <!-- Master.OrdersExecution1 -->
+      <class name="Master.CRMExecution">
+        <methods>
+          <include name="CreateTeam"/>
+          <include name="VerifyOrdersDomain"/>
+          <include name="LoginIdaho"/>
+          <include name="endReport"/>
+          <include name="VerifyPrimaryEmailInOrder"/>
+          <include name="CreateSupplierCompany"/>
+          <include name="DefaultTask"/>
+          <include name="Startup"/>
+          <include name="DeleteCustomerCompany"/>
+          <include name="CreateContactUnderCompany"/>
+          <include name="ValidatingCompanyRequiredField"/>
+          <include name="SystmProperties"/>
+          <include name="getResult"/>
+          <include name="CreateCustomerCompany"/>
+          <include name="VerifyStateDDwrtCountry"/>
+        </methods>
+      </class> <!-- Master.CRMExecution -->
+    </classes>
+  </test> <!-- Some Workflow Tests 1(failed) -->
+</suite> <!-- Failed suite [My Suite] -->
